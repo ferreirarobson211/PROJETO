@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Doações - EcoPonto Solidário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">🌱 EcoPonto Solidário</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="micael.html">Solicitar Coleta</a></li>
+                <li><a href="pedro.html">Cadastrar Excedentes</a></li>
+                <li><a href="robson.html" class="ativo">Consultar Doações</a></li>
+                <li><a href="gabriel.html">Parceiros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo-pagina">
+            <h1>Doações de Alimentos</h1>
+            <p>Retire alimentos excedentes gratuitamente para ajudar a reduzir o desperdício.</p>
+        </div>
+
+        <!-- Barra de Pesquisa -->
+        <div class="barra-busca">
+            <input type="text" placeholder="Pesquisar por alimento, restaurante ou categoria...">
+            <button class="btn" onclick="alert('Busca demonstrativa realizada!')">Buscar</button>
+        </div>
+
+        <div class="layout-loja">
+            <!-- Barra Lateral de Filtros -->
+            <aside class="filtros">
+                <h3>Filtros</h3>
+                <p><strong>Categorias</strong></p><br>
+                <label><input type="checkbox"> Refeições Prontas</label>
+                <label><input type="checkbox"> Frutas e Verduras</label>
+                <label><input type="checkbox"> Padaria e Pães</label>
+                <label><input type="checkbox"> Laticínios</label>
+                <label><input type="checkbox"> Grãos e Embalados</label>
+            </aside>
+
+            <!-- Grade de Cartões -->
+            <section class="grid-cards">
+                <!-- Cartão 1 -->
+                <div class="card-doacao">
+                    <div>
+                        <div class="card-img-container">
+                            <span class="tag-categoria">Hortifrúti</span>
+                            <span class="tag-gratis">GRÁTIS</span>
+                            <img src="imagens/hortifruti.png" alt="Verduras e Legumes">
+                        </div>
+                        <div class="card-corpo">
+                            <h3>Cesta de Hortifrúti</h3>
+                            <div class="card-meta">
+                                <span>25 kg disponíveis</span>
+                                <span>Postado hoje</span>
+                            </div>
+                            <p class="card-info">Sacolão Verde Vida</p>
+                            <p class="card-info">Validade: 24/11/2026</p>
+                            <p class="card-info">Retirada até 18h</p>
+                        </div>
+                    </div>
+                    <div class="card-rodape">
+                        <button class="btn" onclick="alert('Doação reservada com sucesso! (Demonstração)')">♡ Solicitar Doação</button>
+                    </div>
+                </div>
+
+                <!-- Cartão 2 -->
+                <div class="card-doacao">
+                    <div>
+                        <div class="card-img-container">
+                            <span class="tag-categoria">Padaria</span>
+                            <span class="tag-gratis">GRÁTIS</span>
+                            <img src="imagens/paes.jpeg" alt="Pães variados">
+                        </div>
+                        <div class="card-corpo">
+                            <h3>Pães Franceses e Doces</h3>
+                            <div class="card-meta">
+                                <span>80 unidades</span>
+                                <span>Postado hoje</span>
+                            </div>
+                            <p class="card-info">Panificadora Pão Quente</p>
+                            <p class="card-info">Validade: 21/11/2026</p>
+                            <p class="card-info">Retirada imediata</p>
+                        </div>
+                    </div>
+                    <div class="card-rodape">
+                        <button class="btn" onclick="alert('Doação reservada com sucesso! (Demonstração)')">♡ Solicitar Doação</button>
+                    </div>
+                </div>
+
+                <!-- Cartão 3 -->
+                <div class="card-doacao">
+                    <div>
+                        <div class="card-img-container">
+                            <span class="tag-categoria">Refeições</span>
+                            <span class="tag-gratis">GRÁTIS</span>
+                            <img src="imagens/marmitas.jpg" alt="Marmitas prontas">
+                        </div>
+                        <div class="card-corpo">
+                            <h3>Marmitas Executivas</h3>
+                            <div class="card-meta">
+                                <span>30 porções</span>
+                                <span>Postado hoje</span>
+                            </div>
+                            <p class="card-info">Restaurante Sabor Caseiro</p>
+                            <p class="card-info">Validade: Consumo hoje</p>
+                            <p class="card-info">Combinar com o local</p>
+                        </div>
+                    </div>
+                    <div class="card-rodape">
+                        <button class="btn" onclick="alert('Doação reservada com sucesso! (Demonstração)')">♡ Solicitar Doação</button>
+                    </div>
+                </div>
+
+                <!-- Cartão 4 -->
+                <div class="card-doacao">
+                    <div>
+                        <div class="card-img-container">
+                            <span class="tag-categoria">Grãos</span>
+                            <span class="tag-gratis">GRÁTIS</span>
+                            <img src="imagens/cesta.jpg" alt="Cesta Básica de Grãos">
+                        </div>
+                        <div class="card-corpo">
+                            <h3>Kit Arroz e Feijão</h3>
+                            <div class="card-meta">
+                                <span>40 pacotes de 1 kg</span>
+                                <span>Postado ontem</span>
+                            </div>
+                            <p class="card-info">Atacadão da Economia</p>
+                            <p class="card-info">Validade: 15/05/2027</p>
+                            <p class="card-info">Retirada em horário comercial</p>
+                        </div>
+                    </div>
+                    <div class="card-rodape">
+                        <button class="btn" onclick="alert('Doação reservada com sucesso! (Demonstração)')">♡ Solicitar Doação</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>EcoPonto Solidário - Módulo desenvolvido por Robson</p>
+    </footer>
+</body>
+</html>
